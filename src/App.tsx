@@ -13,7 +13,6 @@ const App: React.FC = () => {
       </div>
       <div className="pt-8 md:pt-16">
         <p className="text-lg leading-8 text-gray-900 md:leading-10 md:text-xl">
-          We are a small web/app development company founded in 2018 and based in Dublin, Ireland.
           We are passionate about building products that solve problems for users. We are very experienced
           in several widely used web and mobile technologies: React, React Native, Vue, GraphQL, NodeJS and Laravel.
           We also have extensive experience in user testing (observing users using
