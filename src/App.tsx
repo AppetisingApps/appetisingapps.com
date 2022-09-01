@@ -67,11 +67,6 @@ const projects = [
     url: 'https://moneycoaching.ie'
   },
   {
-    name: 'TraceMyDay',
-    description: 'An open-source contact tracing app for iOS & Android',
-    url: 'https://tracemyday.app'
-  },
-  {
     name: 'James Joyce Gazette',
     description: 'A web app for James Joyce-related materials',
     url: 'https://jamesjoycegazette.com'
