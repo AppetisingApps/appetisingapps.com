@@ -1,23 +1,14 @@
 {
   "name": "appetisingapps.com",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "serve": "vite preview"
+    "dev": "concurrently \"tailwindcss -i ./public/css/in.css -o ./public/css/out.css --watch\" \"serve public\""
   },
-  "dependencies": {
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "@vitejs/plugin-react-refresh": "^1.3.1",
-    "autoprefixer": "^10.3.1",
-    "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.7",
-    "typescript": "^4.3.2",
-    "vite": "^2.4.4"
+    "concurrently": "^8.0.1",
+    "serve": "^14.2.0",
+    "tailwindcss": "^3.3.1"
   }
 }
