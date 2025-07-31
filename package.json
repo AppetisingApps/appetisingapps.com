@@ -3,12 +3,12 @@
   "version": "0.0.1",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "concurrently \"tailwindcss -i ./public/css/in.css -o ./public/css/out.css --watch\" \"serve public\""
+    "dev": "concurrently \"bunx @tailwindcss/cli -i ./public/css/in.css -o ./public/css/out.css --watch\" \"serve public\""
   },
   "dependencies": {},
   "devDependencies": {
-    "concurrently": "^9.0.1",
+    "concurrently": "^9.2.0",
     "serve": "^14.2.4",
-    "tailwindcss": "^3.4.14"
+    "tailwindcss": "^4.1.11"
   }
 }
